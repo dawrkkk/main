@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 0;
+}
+
+.navBar h2 {
+    padding-left: 5%;
+    color: white;
+    padding-right: 50%;
+}
+
+.navBar {
+    display: flex;
+    background-color: rgb(47, 111, 141); 
+}
+
+.navBar a {
+    padding-left: 7%;
+    color: whitesmoke;
+}
+
+.content {
+    padding-top: 5%;
+    padding-left: 10%;
+    height: 750px;
+    color: rgb(164, 232, 255);
+    background-image: linear-gradient(rgb(106, 174, 190), rgb(33, 104, 122))
+}
+
+.content img {
+    padding-left: 20%;
+}
+
+.navBar a :hover {
+    color: rgb(161, 155, 153);
+}
